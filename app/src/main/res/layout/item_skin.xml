@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="80dp"
+        android:layout_weight="3"
+        android:src="@drawable/nunu"
+        android:id="@+id/imgSkin"
+
+        />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:id="@+id/nomeItem"
+        android:textColor="#FFF"
+        android:layout_gravity="center_vertical"
+        android:text="Nome"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/quantItem"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/precoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.50"
+            android:textColor="#FFF" />
+    </LinearLayout>
+
+
+</LinearLayout>
